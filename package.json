@@ -1,0 +1,30 @@
+{
+  "name": "export-billing-core",
+  "version": "1.0.0",
+  "description": "Learning international IT export billing & invoicing: exploring multi-currency precision arithmetic, milestone ledger generation, and tax exemption compliance in TypeScript.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "billing-engine",
+    "multi-currency",
+    "it-exports",
+    "sez-compliance",
+    "typescript"
+  ],
+  "author": "Kuncham Venkata Satya Manikanta <mk1343093@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "decimal.js": "^10.4.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.7",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.5"
+  }
+}
